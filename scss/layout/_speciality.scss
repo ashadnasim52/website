@@ -1,0 +1,13 @@
+.speciality_section {
+  h1 {
+    background-image: linear-gradient(
+      to bottom right,
+      $primary-color-dark,
+      $primary-color
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,55 @@
+.special_cards {
+//   padding: 2rem;
+  margin: 3rem 2rem;
+  height: 300px;
+  @include respond(two){
+    height: 400px;
+}
+  background-color: aqua;
+//   @include respond(first){
+//       margin: 3rem .5rem;
+//   }
+  box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.2),
+    0 6px 10px 0 rgba($color: #000000, $alpha: 0.2);
+    border-radius: 5px;
+    .icon{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        align-items: center;
+        i{
+            font-size: 4rem;
+            background-image: linear-gradient(
+                to bottom right,
+                $primary-color-dark,
+                $primary-color
+              );
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+        }
+       
+    }
+    .ang{
+        background-image: linear-gradient($primary-color-light,rgba($accent-color,.2));
+        i{
+            @include respond(first){
+                font-size: 2.5rem;
+            }
+        }
+        
+    }
+    p{
+        font-size: 2.3rem;
+        color: #fff;
+        height: 180px;
+        @include respond(two){
+            height: 280px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+    }
+}

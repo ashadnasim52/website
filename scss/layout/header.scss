@@ -1,0 +1,17 @@
+.head{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+
+    .button_order{
+        background: #FF416C;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+    .button_tour{
+        background: #4e54c8;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
+    }
+}

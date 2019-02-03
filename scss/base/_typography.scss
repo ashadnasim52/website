@@ -1,0 +1,55 @@
+.heading{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $primary-color-text;
+    text-align: center;
+    // letter-spacing: .2rem;
+    // word-spacing: .6rem;
+}
+.subheading{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: $secondary-text-color;
+    text-align: center;
+}
+
+.color{
+    background-image: linear-gradient(
+        to bottom right,
+        $primary-color-dark,
+        $primary-color
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 3.5rem;
+      padding: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+}
+.colorText{
+    background-image: linear-gradient(
+        to bottom right,
+        $primary-color-text,
+        $primary-color-light
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 3.5rem;
+      padding: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+}
+.contact_usan{
+    color: $secondary-text-color;
+    font-size: 1.2rem;
+    padding: .5rem;
+    text-align: center;
+}
+.contact_us{
+    color: $primary-color-text;
+    font-size: 1.2rem;
+    padding: .5rem;
+    text-align: left;
+}

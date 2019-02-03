@@ -1,0 +1,52 @@
+.flextoChange{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @include respond(five){
+        flex-direction: row;   
+        justify-content: space-around; }
+}
+.flex{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexoffer{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.color_sub{
+    box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.2),
+    0 6px 10px 0 rgba($color: #000000, $alpha: 0.2);
+    border-radius: 5px;
+    // padding:4rem 2rem;
+    font-size: 2.2rem;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    margin: 1rem;
+    @include respond(one){
+        margin: 1.5rem;
+    }
+    @include respond(three){
+        margin: 2.0rem;
+    }
+    @include respond(five){
+        margin: 2.5rem;
+    }
+    @include respond(five){
+        margin: 2.9rem;
+    }
+    @include respond(seven){
+        margin: 3.9rem;
+    }
+    display: block;
+}

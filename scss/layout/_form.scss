@@ -1,0 +1,75 @@
+.contactus {
+  background-image: url(../images/contact.svg);
+  // background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+  h3 {
+    background-image: linear-gradient(
+      to bottom right,
+      $primary-color-dark,
+      $primary-color
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3.5rem;
+    padding: 1rem;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    input,
+    textarea {
+      margin: 1rem;
+      width: 100%;
+      @include respond(three){
+        width: 88%;
+      }
+    @include respond(four){
+      width: 85%;
+  }
+      @include respond(five){
+        width: 80%;
+    }
+      @include respond(six){
+        width: 60%;
+    }
+      @include respond(seven){
+        width: 50%;
+    }
+      padding: 0.5rem;
+      font-size: 1.6rem;
+      outline: 0;
+      border: 0;
+      border-radius: 5px;
+      color: #fff;
+      background: #fc4a1a; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to right,
+        #f7b733,
+        #fc4a1a
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to right,
+        #f7b733,
+        #fc4a1a
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      border: 1px solid #333;
+      &:focus {
+        border: 2px solid #333;
+      }
+    }
+    button {
+      background-color: $primary-color-dark;
+      background-image: linear-gradient(
+        to bottom right,
+        $primary-color-dark,
+        $primary-color
+      );
+    }
+  }
+}

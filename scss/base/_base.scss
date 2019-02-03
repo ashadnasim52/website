@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 62.5%;
+    @include respond(first){
+        font-size: 75%;
+    }
+    @include respond(two){
+        font-size: 87.5%;
+    }
+    @include respond(three){
+        font-size: 90.5%;
+    }
+    @include respond(four){
+        font-size: 93.5%;
+    }
+    @include respond(five){
+        font-size: 95.5%;
+    }
+    @include respond(six){
+        font-size: 99.5%;
+    }
+    @include respond(seven){
+        font-size: 104.5%;
+    }
+}
+body{
+    // font-size: 1
+    font-family: 'Lato', sans-serif;
+    
+}

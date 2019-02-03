@@ -1,0 +1,43 @@
+//breeakpoints are 
+
+// first
+// second
+@mixin respond($breakpoint){
+    @if $breakpoint == first{
+        @media (min-width:420px)
+        {
+            @content
+        };
+    }
+    @if $breakpoint == two{
+        @media (min-width:525px) {
+            @content
+        };
+
+    }
+    @if $breakpoint== three{
+        @media (min-width:700px) {
+           @content 
+        };
+    }
+    @if $breakpoint == four {
+        @media (min-width:900px) {
+            @content
+        };
+    }
+    @if $breakpoint == five {
+        @media (min-width:1100px) {
+            @content
+        };
+    }
+    @if $breakpoint == six {
+        @media (min-width:1300px) {
+            @content
+        };
+    }
+    @if $breakpoint == seven {
+        @media (min-width:1800px) {
+            @content
+        };
+    }
+}
