@@ -2,8 +2,8 @@
 
 This template is designed in scss for saturday coding challenge
 
-!(/images/allImage.png)
+![image](/images/allImage.png)
 
-##Fully responsive
+## Fully responsive
 
-!(/images/oneImage.png)
+![image](/images/oneImage.png)
